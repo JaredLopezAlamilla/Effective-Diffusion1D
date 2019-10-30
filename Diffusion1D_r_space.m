@@ -1,3 +1,7 @@
+%-------------------------------------------------------------------------
+%    This code computes the effective diffusion for Brownian motion
+%        over a tilted periodic potential in 1D position-space
+%-------------------------------------------------------------------------
 xi=0; dx=0.01; L=1; kT=1;Do=1;
 xx=xi:dx:xi+L; xxx=repmat(xx,length(xx),1);
 
