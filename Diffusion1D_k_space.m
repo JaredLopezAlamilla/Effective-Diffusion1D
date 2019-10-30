@@ -1,3 +1,8 @@
+
+%-------------------------------------------------------------------------
+%    This code computes the effective diffusion for Brownian motion
+%            over a tilted periodic potential in 1D k-space
+%-------------------------------------------------------------------------
 M=101; MM=101; L=1; xgrid=deal(L*(0:M-1)/M); 
 Vx=3;Vy=0;Vxy=0; kBTx=1; gx=1; fx=4;
 % ---- Creates potential ----
